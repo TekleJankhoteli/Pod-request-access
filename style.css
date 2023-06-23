@@ -1,0 +1,146 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;400&display=swap');
+
+*,*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 375px;
+    height: 100vh;
+    background-image: url(./assets/mobboy.png);
+    background-color:rgb(35, 64, 53);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-blend-mode: multiply;
+   margin-bottom: 0;
+ 
+
+}
+
+header{
+    margin-top: 72px;
+    margin-bottom: 57px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
+    margin-bottom: 35px;
+}
+
+.maintext h1{
+    font-weight: 100;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 38px;
+}
+.maintext span{
+    color: #54E6AF;
+}
+.maintext p{
+    font-weight: 100;
+    font-size: 15px;
+    color: rgba(194, 203, 229, 1);
+    text-align: center;
+    line-height: 25px;
+}
+.spotify{
+    display: flex;
+    gap:30px;
+    margin-bottom: 48px;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form span{
+        
+    color: red;
+    display: none;
+}
+:invalid+span{
+    display:block;
+    color: red;
+    
+}
+
+/* .buttonwrapper{
+    display: flex;
+    flex-direction: column;
+} */
+input{
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    background-color: rgba(44, 52, 75, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    text-align: start;
+    padding-left: 30px;
+   
+   
+   
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+form button{
+    width: 326px;
+    height: 46px;
+    margin-top: 15px;
+    border-radius: 28px;
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    border-style: none;
+    color: white;
+    background-color: rgba(84, 230, 175, 1);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+
+}
+
+button:hover{
+    background-color: rgba(179, 255, 226, 1);
+    color: rgba(18, 23, 37, 1);
+    cursor: pointer;
+    transition: 2s;
+    border: none;
+}
+.wertilebi{
+    display: none;
+}
+.spotifyfortabanddesk{
+    display: none;
+}
