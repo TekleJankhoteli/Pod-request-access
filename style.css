@@ -79,6 +79,9 @@ main{
 form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
+
 }
 
 form span{
@@ -92,10 +95,10 @@ form span{
     
 }
 
-/* .buttonwrapper{
+.buttonwrapper{
     display: flex;
     flex-direction: column;
-} */
+} 
 input{
     width: 327px;
     height: 46px;
